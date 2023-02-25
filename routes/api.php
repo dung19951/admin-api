@@ -16,7 +16,7 @@ use App\Http\Controllers\AuthController;
 */
 
 Route::group([
-    'middleware' => 'api',
+    'middleware' => 'api/v1',
     'prefix' => 'auth'
 
 ], function ($router) {
